@@ -32,7 +32,6 @@ ol, ul{margin-top:0;margin-bottom:10px;padding-left:1.5em;font-size:1.1em}
 html{cursor:url("img/cursor.gif"), pointer}
 body{color:#fff;background-image:url("img/rainbowback.jpg");font-family:"Comic Sans MS", cursive, sans-serif}
 a:href{cursor:pointer}
-.wrapPageFrame{width:100%;overflow-x:hidden}
 .pageframe{float:left;font-size:16px;max-width:1300px;margin:20px 0 20px 3%;outline:1px solid #FFF;background:rgba(0,0,0,0.3);width:94%}
 .pageframe > div{clear:both}
 .pageframe > div > div{float:left;outline:5px dotted #FFF;position:relative}
@@ -49,7 +48,6 @@ a:href{cursor:pointer}
 .hright, .cright, .fright{width:24%;padding:0;font-family:monospace}
 .cmiddle a{color:#317399;text-decoration:underline}
 .cmiddle img{max-width:100%}
-.hmiddle, .cmiddle, .fmiddle{width:56%;padding:10px 0}
 .header > div{height:140px}
 .content > div{height:530px}
 .footer > div{height:260px;text-align:center}
@@ -60,7 +58,7 @@ a:href{cursor:pointer}
 .hmiddle{padding:0}
 .hright{width:24%}
 .cleft{background:url(img/rainbowback.jpg) bottom center repeat-x transparent}
-.cmiddle{overflow-y:scroll;background:rgba(255, 255, 255, 0.5) none repeat scroll 0% 0%;color:#000}
+.cmiddle{background:rgba(255, 255, 255, 0.8) none repeat scroll 0% 0%;color:#000}
 .cmiddle p{font-size:1.5em;line-height:1.35em;margin-bottom:1.1em}
 .cright{text-align:center;line-height:2em;font-size:19px}
 .cright p{line-height:1em}
